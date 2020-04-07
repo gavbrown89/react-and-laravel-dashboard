@@ -1,0 +1,145 @@
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+.flex-center.position-ref.full-height.main-bg {
+    background: url(../images/wavy.svg) no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.card-body {
+    -webkit-box-shadow: 0px 6px 21px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 21px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 6px 21px -1px rgba(0,0,0,0.75);
+    background-color: #fff;    
+    padding: 0;
+}
+.form-home {
+    padding: 50px;
+}
+aside.side-nav {
+    height: 100%;
+    /* width: 50px;     */
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    -webkit-box-shadow: 4px 3px 16px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 3px 16px -2px rgba(0,0,0,0.75);
+    box-shadow: 4px 3px 16px -2px rgba(0,0,0,0.75); 
+    background: #333;
+    background: url('../images/mountains.jpg') no-repeat;
+    background-size: cover;
+    transition: ease .5s;
+}
+.side-header {
+    background: #fff;
+    height: 40px;
+    width: 100%;     
+}
+.side-container {
+    padding: 20px 0px 0px 10px;
+    margin-top: 80px;
+}
+a.side-link {
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 550;
+}
+a.side-link:hover {
+    text-decoration: none;
+}
+a.side-link:before {
+    font-family: 'FontAwesome';
+    content: "\f080";
+    margin-right: 10px;
+    color: #fff;   
+}
+.dash-link {
+    visibility: hidden;
+    transition: ease-in 0.5s;
+}
+.dash-header {
+    height: 40px;
+    width: 100%;
+    padding-top: 10px;
+    background: #fff;
+    position: fixed;
+}
+.dash-title {
+    margin-top: 40px;
+}
+main.main-content {
+    margin-left: 50px;
+    background: #f8f8f8;
+    height: 100vh;
+}
+.inner-container {
+    padding: 20px;
+}
+
+/* Charts */
+.chart-container {
+    background: #fff;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+.chart-container.inline-container {
+    display: inline-block;
+    width: 50%;
+}
+
+@media screen and (max-width: 930px) {
+    .chart-container.inline-container {
+        width: 100%;
+    }
+}

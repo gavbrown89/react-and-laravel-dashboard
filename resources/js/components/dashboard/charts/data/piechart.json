@@ -1,0 +1,32 @@
+[
+    {
+      "id": "stylus",
+      "label": "stylus",
+      "value": 423,
+      "color": "hsl(85, 70%, 50%)"
+    },
+    {
+      "id": "java",
+      "label": "java",
+      "value": 503,
+      "color": "hsl(138, 70%, 50%)"
+    },
+    {
+      "id": "hack",
+      "label": "hack",
+      "value": 300,
+      "color": "hsl(253, 70%, 50%)"
+    },
+    {
+      "id": "c",
+      "label": "c",
+      "value": 136,
+      "color": "hsl(221, 70%, 50%)"
+    },
+    {
+      "id": "sass",
+      "label": "sass",
+      "value": 390,
+      "color": "hsl(119, 70%, 50%)"
+    }
+  ]
